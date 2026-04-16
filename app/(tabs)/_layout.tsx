@@ -1,24 +1,15 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
 
-import { HapticTab } from '@/components/haptic-tab';
+import { CircularTabBar } from '@/components/circular-tab-bar';
 import { IconSymbol } from '@/components/ui/icon-symbol';
-import { Colours } from '@/constants/theme';
-import { useColorScheme } from '@/hooks/use-color-scheme';
 
 export default function TabLayout() {
-  const colorScheme = useColorScheme();
-
   return (
     <Tabs
+      tabBar={(props) => <CircularTabBar {...props} />}
       screenOptions={{
-        tabBarActiveTintColor: Colours[colorScheme ?? 'light'].tint,
-        tabBarInactiveTintColor: Colours[colorScheme ?? 'light'].tabIconDefault,
-        tabBarStyle: {
-          backgroundColor: Colours[colorScheme ?? 'light'].background,
-        },
         headerShown: false,
-        tabBarButton: HapticTab,
       }}>
       <Tabs.Screen
         name="index"

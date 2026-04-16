@@ -1,25 +1,26 @@
 import { Platform } from 'react-native';
 
-import { lightGreys } from './palette';
-import { darkGreys } from './palette';
-import { tintColour } from './palette';
+import { lightGreys, darkGreys, tintColour } from './palette';
+import { Background } from '@react-navigation/elements';
 
 export const Colours = {
   light: {
     text: lightGreys.black,
-    background: lightGreys.white,
+    background: lightGreys.grey3,
     tint: tintColour,
     icon: lightGreys.grey0,
+    toolbar: lightGreys.grey2,
     tabIconDefault: lightGreys.grey0,
-    tabIconSelected: tintColour,
+    tabIconSelected: lightGreys.grey0,
   },
   dark: {
     text: darkGreys.white,
-    background: darkGreys.black,
+    background: darkGreys.grey0,
     tint: tintColour,
     icon: darkGreys.grey3,
+    toolbar: darkGreys.grey1,
     tabIconDefault: darkGreys.grey3,
-    tabIconSelected: tintColour,
+    tabIconSelected: darkGreys.grey3,
   },
 };
 
