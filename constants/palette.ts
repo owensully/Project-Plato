@@ -1,26 +1,26 @@
 /*
-Colour Palette for #D4AF37 at 5% tint.
+Colour Palette for #D4AF37 at 3% tint.
 */
 
 export const tintColour = '#D4AF37'
 
 const greyScale = {
-  grey0: '#0B0903',
-  grey1: '#1B1913',
-  grey2: '#2B2923',
-  grey3: '#3B3933',
-  grey4: '#4B4943',
-  grey5: '#5B5A54',
-  grey6: '#6C6A64',
-  grey7: '#7C7A74',
-  grey8: '#8C8A84',
-  grey9: '#9C9A94',
-  greyA: '#ACAAA4',
-  greyB: '#BCBAB4',
-  greyC: '#CCCBC5',
-  greyD: '#DDDBD5',
-  greyE: '#EDEBE5',
-  greyF: '#FDFBF5',
+  grey0: '#060502',
+  grey1: '#171612',
+  grey2: '#272623',
+  grey3: '#383733',
+  grey4: '#484744',
+  grey5: '#595854',
+  grey6: '#696865',
+  grey7: '#7A7975',
+  grey8: '#8A8986',
+  grey9: '#9B9A96',
+  greyA: '#ABAAA7',
+  greyB: '#BCBBB7',
+  greyC: '#CCCBC8',
+  greyD: '#DDDCD8',
+  greyE: '#EDECE9',
+  greyF: '#FEFDF9',
 };
 
 export const lightGreys = {
